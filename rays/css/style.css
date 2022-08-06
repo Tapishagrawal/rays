@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+}
+.bg-dark.back {
+    background-color: #212529!important;
+    opacity: 0.93;
+    box-shadow: 0px 5px 9px black;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff7300;
+}
+.navbar-light .navbar-nav .nav-link:active{
+    color: greenyellow;
+}
+
+.header i.bars{
+    color: white;
+}
+.header i.bars:hover{
+    color: rgb(255, 208, 0);
+}
+.about-section{
+    background-color: #181818;
+    padding: 30px 0px;
+}
+.about-section .mfood{
+    padding-top: 30px;
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 10px;
+}
+.text-sec h2{
+    color: #2faf2f;
+    font-size: 38px;
+}
+.text-sec p{
+    color: #bcbcbc;
+}
+.about-section .text-sec .main-btn{
+    color: black;
+    background-color: rgb(255, 208, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1);
+}
+.about-section .text-sec .main-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 208, 0) ;
+    color: wheat;
+    transform: scale(1.05);
+}
+.food-type{
+    padding-top: 15px;
+}
+.text-sec .about_list li {
+    color: #bcbcbc;
+}
+i.li_check{
+    color: rgb(255, 208, 0);
+    margin-right: 5px;
+}
+.food-type img.img-fluid, .card {
+    background: #181818;
+}
+#explore {
+    padding: 2% 23%;
+    background-color: #212020;
+}
+#explore .card_1{
+    width: 40%;
+}
+#explore .card_1 .main-btn{
+    color: black;
+    background-color: rgb(255, 208, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    transition-timing-function:ease-in-out ;
+}
+#explore .card_1 .main-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 208, 0) ;
+    color: rgb(86, 85, 78);
+}
+.explore-food .ex_card {
+    border: none;
+    border-radius: 15px 15px 7px 7px;
+}
+.card_img{
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+.explore-food {
+    background-color: #212020;
+}
+.explore-food .ex_card{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.explore-food .ex_card:hover{
+    transform: scale(0.98);
+}
+.explore-food .ex_card {
+    transform: scale(1);
+    border: 1px solid #997d47;
+    transition: 0.3s ease-in-out;
+}
+.explore-food .ex_card img {
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    opacity: 0.5;
+}
+.explore-food .ex_card:hover img {
+    transform: scale(1.2);
+    opacity: 1;
+}
+.explore-food .ex_card .card-body {
+    border: 1px solid #44444429;
+}
+.explore-food .ex_card .card-body h5 {
+    color: #dae4a5;
+}
+.explore-food .ex_card .card-body p {
+    color: #c1c1c1;
+}
+.explore-food .ex_card .card-body a {
+    color: black;
+    background-color: #ffd000;
+    border: 2px solid #e6c21d;
+    font-weight: 600;
+    padding: 7px 20px;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    transform:scale(1);
+}
+.explore-food .ex_card .card-body a:hover {
+    background-color: transparent;
+    color: wheat;
+    transform: scale(1.05);
+}
+.explore-food .ex_card:hover {
+    box-shadow: 0px 2px 20px -3px #000000;
+}
+#booking {
+    background-color: #181818;
+    padding: 80px 0px;
+}
+#booking .book_img .img-fluid {
+
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+#booking .res_con .book_content {
+    width: 70%;
+    margin: auto;
+}
+#booking .book_content h6 {
+    font-size: 35px;
+    color: #2faf36;
+    text-transform: capitalize;
+}
+#booking .book_content h5 {
+    font-size: 25px;
+    color: #ef8b02;
+}
+#booking .book_content .btn_book {
+    color: black;
+    background-color: #ffd000;
+    border: 2px solid #e6c21d;
+    font-weight: 600;
+    padding: 7px 20px;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1);
+    margin-right: 17px;
+    margin-top: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#booking .book_content .btn_book:hover {
+    background-color: transparent;
+    color: wheat;
+    transform: scale(1.05);
+}
+
+#booking .book_content .btn_book:hover i {
+    color: #2faf36;
+}
+
+
+
